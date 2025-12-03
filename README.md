@@ -1,5 +1,5 @@
-[![Zenodo](https://zenodo.org/badge/17796986.svg)](https://zenodo.org/records/17796987)
-[![OSF](https://img.shields.io/badge/OSF-7bt46)](https://osf.io/7bt46/overview)
+[!](https://zenodo.org/badge/17796986.svg)](https://zenodo.org/records/17796987)
+[!](https://img.shields.io/badge/OSF-7bt46)](https://osf.io/7bt46/overview)
 
 **Cite as:** 
 Esteban (2025). Psycho Dimensional Arithmetic (PDA) Framework: 32–96D Consciousness Architecture for AI Systems. Zenodo/OSF. DOI:[10.5281/zenodo.17796986]
