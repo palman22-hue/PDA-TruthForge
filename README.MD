@@ -1,61 +1,50 @@
-![alt text](image.png)
+# 🤖 PDA TruthForge
 
-# Ethical AI framework with transparent, 32D emotional state tracking for aligned PDAs
+Personal Digital Agent with modular cognition, ethical reasoning, and emotional awareness.
 
-https://dev.to/palman22hue/built-a-32d-emotional-state-tracking-system-for-transparent-ethical-ai-now-open-source-gplv3-1doa
+---
 
-## Setup
+## 🚀 Installation
 
-### Local Development
+### 📦 Option 1: Installer (Windows only)
+Download the latest release from [GitHub Releases](https://github.com/yourusername/PDA/releases)  
+Run `PDA_Agent_Installer.exe` and follow the instructions.
 
-1. Clone repository
-2. Create virtual environment:
+> ⚠ Requirements:
+> - Python 3.10+
+> - [Ollama](https://ollama.com) installed and running
+> - Mistral model pulled via `ollama pull mistral`
 
-python -m venv venv
-.\venv\Scripts\Activate # Windows
-source venv/bin/activate # Linux/Mac
-
-
-3. Install dependencies:
-
+### 🛠 Option 2: Manual setup
+```bash
+git clone https://github.com/yourusername/PDA.git
+cd PDA
 pip install -r requirements.txt
-
-
-4. Create `.env` file with your Mistral API key:
-
-MISTRAL_API_KEY=your_key_here
-
-
-5. Run:
-
 python api.py
 
-Or use the convenience batch file (Windows):
+📜 Release History
+See CHANGELOG.md for full version history.
 
-start_pda.bat
+Latest release: v1.2.0 — PDA TruthForge  
+Includes installer, GUI launcher, and universal runtime checks.
+
+🧠 Modules
+core/ — cognition: perception, memory, planning, emotions
+
+modules/ — extensions and probes
+
+static/ — web interface
+
+api.py — main entry point
+
+pda_agent_gui.ps1 — GUI launcher
+
+PDA_Agent_Installer.iss — installer script
+
+🛡 License & Credits
+This project is open-source and distributed under the MIT License.
+Created by Ezekiel — system architect, storyteller, and agent‑maker.
 
 
-6. Open http://127.0.0.1:8000
-
-### GitHub Codespaces
-
-1. Fork/Clone this repository
-2. Open in Codespaces
-3. Add your Mistral API key as a **Codespaces Secret**:
-- Go to: https://github.com/settings/codespaces
-- Click "New secret"
-- Name: `MISTRAL_API_KEY`
-- Value: your Mistral API key
-- Select this repository
-4. **Rebuild the container** (Command Palette → "Codespaces: Rebuild Container")
-5. Install dependencies:
-
-pip install -r requirements.txt
-
-6. Run:
-
-python api.py
-
-7. Click "Open in Browser" when prompted
-
+---
 
