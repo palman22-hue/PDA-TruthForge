@@ -1,5 +1,7 @@
 # 🤖 PDA TruthForge
 
+[![DOI](https://zenodo.org/badge/1108669370.svg)](https://doi.org/10.5281/zenodo.18010895)
+
 Personal Digital Agent with modular cognition, ethical reasoning, and emotional awareness.
 
 ---
