@@ -50,3 +50,6 @@ Created by Esteban Palman — system architect, storyteller, and agent‑maker.
 
 ---
 
+
+
+[def]: https://doi.org/10.5281/zenodo.18010895
