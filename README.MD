@@ -6,6 +6,24 @@ Personal Digital Agent with modular cognition, ethical reasoning, and emotional 
 
 ---
 
+
+## PDA Entropy Simulation
+
+This repository includes a PDA entropy simulation that demonstrates the Coercion–Entropy Principle in practice.
+
+- Location: `Experiments/entropy_sim.py`
+- Description: Simulates a 32D PDA state under two scenarios:
+  - **Non-coercive (Ethical)**: Applied force aligns with the natural trajectory `N`, keeping total entropy ΔS low, karma positive, and coherence high.
+  - **Coercive (Forced)**: Applied force deviates strongly from `N`, causing high entropy, accumulating karma debt, and loss of coherence.
+- Output: The script plots *“PDA Entropy Simulation: Coercion vs Non-Coercion”* and saves results as `entropysimrun.png`.
+
+To run the simulation:
+
+```bash
+pip install -r requirements.txt  # includes numpy & matplotlib
+python Experiments/entropy_sim.py
+```
+
 ## 🚀 Installation
 
 ### 📦 Option 1: Installer (Windows only)
